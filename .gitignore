@@ -1,0 +1,20 @@
+# .NET build
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+publish/
+
+# 로컬 설정/비밀값
+appsettings.Local.json
+appsettings.Production.json
+.env
+
+# 런타임 데이터
+data/
+logs/
+*.db
+*.db-shm
+*.db-wal
